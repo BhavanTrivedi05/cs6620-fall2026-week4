@@ -1,5 +1,6 @@
 """Simple Calculator app"""
 
+
 def add(a, b):
     """Add two numbers"""
     return a+b
@@ -8,6 +9,7 @@ def add(a, b):
 def subtract(a, b):
     """Subtract two numbers"""
     return a - b
+
 
 def multiply(a, b):
     """Multiply two numbers"""
@@ -44,4 +46,3 @@ if __name__ == "__main__":
     result2 = calculate('multiply', 7, 3)
     print(f"7 * 3 = {result2}")
     print("Calculator completed successfully!")
-    
